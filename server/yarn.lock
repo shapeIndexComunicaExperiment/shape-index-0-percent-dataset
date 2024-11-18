@@ -3836,7 +3836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"componentsjs@npm:^6.0.0":
+"componentsjs@npm:^6.0.0, componentsjs@npm:^6.3.0":
   version: 6.3.0
   resolution: "componentsjs@npm:6.3.0"
   dependencies:
@@ -5924,7 +5924,7 @@ __metadata:
 
 "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js::locator=server%40workspace%3A.":
   version: 2.7.1
-  resolution: "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js#./rdf-dataset-fragmenter.js::hash=c2d4ed&locator=server%40workspace%3A."
+  resolution: "rdf-dataset-fragmenter@file:./rdf-dataset-fragmenter.js#./rdf-dataset-fragmenter.js::hash=8e1b5b&locator=server%40workspace%3A."
   dependencies:
     "@rdfjs/types": "npm:*"
     "@shexjs/parser": "npm:^1.0.0-alpha.28"
@@ -5946,7 +5946,7 @@ __metadata:
     relative-to-absolute-iri: "npm:^1.0.0"
   bin:
     rdf-dataset-fragmenter: bin/runner.js
-  checksum: 10/aae0262e3850b8ea0ccc27ed6bee5ebc8f5c3cf2a5946cbbeb995b293c427ba8d74a95cd145a641045e9990758771e4ce8b963276485d5b40369c6a3a34baeee
+  checksum: 10/5ef9558bdb178601931716685b50f1949f0b80257eb085fdce63d62babd820a8998989701825cdd8aad8f2b40f984912db61f761c0fe5ed9c3db5c0ef85c7033
   languageName: node
   linkType: hard
 
@@ -6438,6 +6438,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server@workspace:."
   dependencies:
+    componentsjs: "npm:^6.3.0"
     rdf-dataset-fragmenter: "file:./rdf-dataset-fragmenter.js"
     solidbench: "npm:^2.0.0"
   languageName: unknown
